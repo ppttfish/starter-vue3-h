@@ -14,6 +14,7 @@ export default defineConfig({
     }),
     AutoImport({
       imports: ['vue', 'vue/macros', 'vue-router'],
+      dirs: ['src/api'],
       dts: true
     }),
     Components({
